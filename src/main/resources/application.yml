@@ -1,0 +1,13 @@
+
+server:
+  port: 8092
+
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+    cache: false
+  mvc:
+    view:
+      prefix: /templates
